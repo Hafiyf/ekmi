@@ -1,3 +1,5 @@
+@import 'defaults';
+
 .hero {
     margin: 63px 0;
 
@@ -24,13 +26,13 @@
     .hero {
         display: none;
         margin: 63px 0;
-    
+
         &__container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-    
+
         &__first-box {
             display: flex;
             flex-direction: column;
