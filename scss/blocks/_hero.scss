@@ -1,0 +1,42 @@
+.hero {
+    margin: 63px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__first-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+
+
+
+
+@media only screen and(max-width:375px) {
+    .hero {
+        display: none;
+        margin: 63px 0;
+    
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        &__first-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+}

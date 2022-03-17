@@ -1,0 +1,73 @@
+@import 'defaults';
+
+.hero2__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero2__img {
+    display: inline-block;
+}
+
+.hero2__script {
+
+
+    .hero2__heading {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+
+        margin-bottom: 30px;
+
+        text-transform: uppercase;
+        color: $dark;
+    }
+
+    .hero2__collection {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+
+        margin-bottom: 15px;
+
+        color: $dark;
+    }
+
+    .hero2__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+
+        margin-bottom: 15px;
+
+        text-transform: uppercase;
+    }
+
+    .hero2__price {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+
+        margin-bottom: 30px;
+
+        color: $yellow;
+    }
+
+    .hero2__cost {
+        text-transform: uppercase;
+        padding: 16px 13px;
+        color: #ffffff;
+        background: $yellow;
+    }
+}

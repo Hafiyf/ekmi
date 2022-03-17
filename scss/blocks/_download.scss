@@ -1,0 +1,43 @@
+@import 'defaults';
+
+.download {
+    margin-top: 198.91px;
+}
+
+.download__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__list-item {
+    max-width: 385px;
+    text-align: center;
+
+    border-top: 1px solid $yellow;
+    border-left: 1px solid $yellow;
+    border-bottom: 1px solid $yellow;
+    border-right: none;
+
+    &:last-child {
+        border-right: 1px solid $yellow;
+    }
+}
+
+.download__item-link {
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 47px 60px;
+
+    color: $dark;
+}
+
+.download__item-skacat {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

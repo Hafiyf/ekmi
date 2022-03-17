@@ -1,0 +1,122 @@
+.arrow {
+    margin-top: 60px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        cursor: pointer;
+    }
+
+    &__right {
+        font-size: 20px;
+        transform: rotate(180deg);
+    }
+
+    &__left {
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: 'Raleway';
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 14%;
+        height: 40px;
+        background: #FF9619;
+        transition: 40ms ease all;
+
+        &:active {
+            transition: 40ms ease all;
+            background: none;
+            color: #FF9619;
+            border: 2px solid #FF9619;
+        }
+    }
+
+    span {
+        color: rgba(52, 52, 52, 0.5);
+        transition: 40ms ease all;
+    }
+
+    span:hover {
+        transition: 40ms ease all;
+        color: black;
+    }
+}
+
+
+@media only screen and(max-width:375px) {
+    .arrow {
+        margin-top: 60px;
+
+        &__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+        }
+
+        &__right {
+            font-size: 20px;
+            transform: rotate(180deg);
+        }
+
+        &__left {
+            margin-bottom: 2px;
+            font-size: 20px;
+        }
+
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 60px auto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            font-family: 'Raleway';
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 54%;
+            height: 40px;
+            background: #FF9619;
+            transition: 40ms ease all;
+
+            &:active {
+                transition: 40ms ease all;
+                background: none;
+                color: #FF9619;
+                border: 2px solid #FF9619;
+            }
+        }
+
+        span {
+            color: rgba(52, 52, 52, 0.5);
+            transition: 40ms ease all;
+        }
+
+        span:hover {
+            transition: 40ms ease all;
+            color: black;
+        }
+    }
+}

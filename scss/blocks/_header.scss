@@ -1,0 +1,192 @@
+.header {
+    margin-top: 52px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__img {
+        transition: 40ms ease all;
+        display: inline-block;
+
+        &:active {
+            opacity: 0.3;
+            transition: 40ms ease all;
+        }
+    }
+
+    &__first-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 62px;
+    }
+
+    &__second-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 62px;
+    }
+
+    &__links {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #343434;
+        transition: 40ms ease all;
+
+        &:hover {
+            transition: 40ms ease all;
+            color: #FF9619;
+        }
+    }
+
+    &__links-second {
+        display: none;
+    }
+
+    &__img-tel {
+        display: none;
+    }
+
+    span {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #343434;
+        transition: 40ms ease all;
+        font-family: 'Open Sans';
+    }
+
+    span:hover {
+        transition: 40ms ease all;
+        color: #FF9619;
+
+    }
+
+    .span {
+        transform: rotate(90deg);
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+@media only screen and(max-width:375px) {
+    .header {
+        margin-top: 22px;
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__img {
+            width: 111.27px;
+            height: 34px;
+            transition: 40ms ease all;
+            display: inline-block;
+
+            &:active {
+                opacity: 0.3;
+                transition: 40ms ease all;
+            }
+        }
+
+        &__first-navbar {
+            display: none;
+        }
+
+        &__second-navbar {
+            display: none;
+        }
+
+        &__first-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 62px;
+        }
+
+        &__img-tel {
+            transform: translateX(-60px);
+            display: block;
+        }
+
+        &__second-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 62px;
+        }
+
+        &__links {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #343434;
+            transition: 40ms ease all;
+
+            &:hover {
+                transition: 40ms ease all;
+                color: #FF9619;
+            }
+        }
+
+        &__links-second {
+            transform: translateX(-10px);
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #343434;
+            transition: 40ms ease all;
+
+            &:active {
+                transition: 40ms ease all;
+                color: #FF9619;
+            }
+        }
+
+        span {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #343434;
+            transition: 40ms ease all;
+            font-family: 'Open Sans';
+        }
+    }
+
+}
